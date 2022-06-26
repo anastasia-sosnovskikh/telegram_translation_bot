@@ -47,7 +47,7 @@ def echo(update, context):
 	context.bot.send_message(
     	chat_id=
     		update.effective_chat.id
-    		,text=translation.text
+    	#	,text=translation.text
     	)
 
 def lang(update, context):
